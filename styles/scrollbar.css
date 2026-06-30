@@ -1,0 +1,46 @@
+/* Larghezza della scrollbar */
+.contact_subject-list::-webkit-scrollbar {
+  width: 4px; /* Per la scrollbar verticale */
+  height: 10px; /* Per la scrollbar orizzontale */
+}
+
+/* Colore di sfondo della scrollbar */
+.contact_subject-list::-webkit-scrollbar-track {
+  background: #ffffff10; /* Grigio chiaro */
+  border-radius: 5px;
+}
+
+/* Colore della "maniglia" della scrollbar */
+.contact_subject-list::-webkit-scrollbar-thumb {
+  background: #cacaca;
+  border-radius: 5px;
+}
+
+/* Effetto hover sulla scrollbar */
+.contact_subject-list::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+/* Larghezza della scrollbar */
+::-webkit-scrollbar {
+  width: 6px; /* Per la scrollbar verticale */
+  height: 10px; /* Per la scrollbar orizzontale */
+  background: #000000;
+}
+
+/* Colore di sfondo della scrollbar */
+::-webkit-scrollbar-track {
+  background: #000000;
+  border-radius: 5px;
+}
+
+/* Colore della "maniglia" della scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #444444;
+  border-radius: 5px;
+}
+
+/* Effetto hover sulla scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background: #4d4d4d;
+}

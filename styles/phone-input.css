@@ -1,0 +1,49 @@
+.hide {
+  display: none;
+}
+#valid-msg {
+  color: #10b981;
+}
+#error-msg {
+  color: #f43f5e;
+}
+
+.iti {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.iti__country {
+  background-color: #000000;
+}
+
+.iti__country-name,
+.iti__selected-dial-code,
+.iti__search-input {
+  color: white;
+}
+
+.iti__country.iti__highlight {
+  background-color: #161616 !important;
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+}
+
+.iti--inline-dropdown .iti__dropdown-content {
+  border: 0.5px solid #262626 !important;
+  background-color: #000000;
+}
+
+.iti__dropdown-content {
+  background-color: black !important;
+}
+
+.iti__search-input {
+  background-color: #262626;
+  border: 0.5px solid #262626 !important;
+  min-height: 32px;
+}
+
+.iti__search-input:focus {
+  border-color: #262626 !important;
+  outline: none;
+}
